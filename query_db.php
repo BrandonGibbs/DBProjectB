@@ -9,7 +9,7 @@
 	$servername = "localhost";
 	$username = $_POST['username'];
 	$password = $_POST['password'];
-	$dbname = "examplePharmacy";
+	$dbname = "Pharma";
 	$conn = new mysqli($servername, $username, $password, $dbname);
 
 	if ($conn->connect_error){
