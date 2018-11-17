@@ -1,8 +1,8 @@
-<!--
+
 	Get user credentials and redirect to html form that will
 	allow the user to make queries based on their permissions
 -->
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
