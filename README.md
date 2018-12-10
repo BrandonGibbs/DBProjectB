@@ -1,7 +1,7 @@
 # DBProjectB
-###Database and front-end for a pharmacy with XAMPP
+### Database and front-end for a pharmacy with XAMPP
 
-####To set up:
+#### To set up:
 ```
 $sudo /opt/lampp/xampp start
 $mysql
