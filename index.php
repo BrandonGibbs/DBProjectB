@@ -1,20 +1,21 @@
-
-	Get user credentials and redirect to html form that will
-	allow the user to make queries based on their permissions
--->
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
+<?php
+// login.php returns here: 
+// check if user is signed in, 
+//if (!isset($_SESSION['user'])){
+//	setcookie('user', );
+//}
+?>
 <html>
 	<head>
 		<meta charset="utf-8">
 		<title>Welcome to Zombie Pharmacy!</title>
-		<h1>Welcome to Zombie Pharmacy!</h1>
 	</head>
 	<body>
-		<div>Enter your credentials to begin shopping!</div><br>
-		<form action='/query_db.php' method='POST'>
-			Username: <input type='text' name='username'></input><br>
-			Password: <input type='password' name='password'></input><br>
-			<input type='submit'></input>
-		</form>
+		<h1>Welcome to Zombie Pharmacy!</h1>
+		<a href="/login.php">Login</a><br/>
+		<a href="/signup.php">Create Account</a><br/>
+		<a href="/search_products.php">Search Products</a><br/>
+		<a href="/help.php">Help</a><br/>
 	</body>
 </html>
