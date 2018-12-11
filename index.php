@@ -12,10 +12,9 @@
 		<title>Welcome to Zombie Pharmacy!</title>
 	</head>
 	<body>
-		<h1>Welcome to Zombie Pharmacy!</h1>
-		<a href="/login.php">Login</a><br/>
-		<a href="/signup.php">Create Account</a><br/>
-		<a href="/search_products.php">Search Products</a><br/>
-		<a href="/help.php">Help</a><br/>
+<?php 
+	include "head.php";
+	include "navigation.php";
+?>
 	</body>
 </html>
