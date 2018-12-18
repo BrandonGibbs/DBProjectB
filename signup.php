@@ -7,6 +7,11 @@
     <title>Document</title>
 </head>
 <body>
+
+<?php 
+	include "head.php";
+	include "navigation.php";
+?>
     
 </body>
 </html>
